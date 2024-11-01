@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    font-family: "Noto Serif KR", serif;
+    font-style: normal;
+}
+
+/* 
+How to use a font
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.noto-serif-kr-<uniquifier> {
+  font-family: "Noto Serif KR", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+  */
+
+body{
+    background-color: #eeee;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100dvh;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#mainBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+#mainBody .icons{
+    font-size: 80px;
+}
