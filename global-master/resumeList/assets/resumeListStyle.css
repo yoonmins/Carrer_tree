@@ -1,0 +1,204 @@
+@font-face{
+    font-family:'Montserrat';
+    src:url("fonts/Montserrat-Black.eot");
+    src:local("☺"),url("fonts/Montserrat-Black.woff") format("woff"),url("fonts/Montserrat-Black.ttf") format("truetype"),url("fonts/Montserrat-Black.svg") format("svg");font-weight:900;font-style:normal
+}
+@font-face{
+    font-family:'Montserrat';
+    src:url("fonts/Montserrat-Bold.eot");
+    src:local("☺"),url("fonts/Montserrat-Bold.woff") format("woff"),url("fonts/Montserrat-Bold.ttf") format("truetype"),url("fonts/Montserrat-Bold.svg") format("svg");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:'Montserrat';
+    src:url("fonts/Montserrat-Regular.eot");
+    src:local("☺"),url("fonts/Montserrat-Regular.woff") format("woff"),url("fonts/Montserrat-Regular.ttf") format("truetype"),url("fonts/Montserrat-Regular.svg") format("svg");
+    font-weight:400;font-style:normal
+}
+
+@font-face{
+    font-family:'Montserrat';
+    src:url("fonts/Montserrat-Light.eot");
+    src:local("☺"),url("fonts/Montserrat-Light.woff") format("woff"),url("fonts/Montserrat-Light.ttf") format("truetype"),url("fonts/Montserrat-Light.svg") format("svg");
+    font-weight:300;
+    font-style:normal
+} 
+/*
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #0c0c0c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p, h1, h2, h3{
+    color: white;
+}
+
+
+header{
+    margin: 2% 0px 1% 4%;
+}
+
+header h1{
+    padding-left: 10px;
+}
+
+.main-title-bottom-line{
+    margin: 30px 0px;
+    width: 40%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 46%);
+    border:0;
+    height: 1px;
+}
+
+article{
+    width: 90%;
+    height: 60%;
+    margin: 1% 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1616E2;
+} */
+body{
+    margin-top:20px;
+    background-color: rgba(12, 12, 12, 0.94);
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-text{
+    margin: 15px 1%;
+    color:  white;
+}
+.header-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .025);
+}
+
+.card-border-primary {
+    border-top: 4px solid #2979ff
+}
+
+.card-border-secondary {
+    border-top: 4px solid #efefef
+}
+
+.card-border-success {
+    border-top: 4px solid #00c853
+}
+
+.card-border-info {
+    border-top: 4px solid #3d5afe
+}
+
+.card-border-warning {
+    border-top: 4px solid #ff9100
+}
+
+.card-border-danger {
+    border-top: 4px solid #ff1744
+}
+
+.card-border-light {
+    border-top: 4px solid #f8f9fa
+}
+
+.card-border-dark {
+    border-top: 4px solid #6c757d
+}
+
+.card-header {
+    border-bottom-width: 1px
+}
+
+.card-actions a {
+    color: #495057;
+    text-decoration: none
+}
+
+.card-actions svg {
+    width: 16px;
+    height: 16px
+}
+
+.card-actions .dropdown {
+    line-height: 1.4
+}
+
+.card-title {
+    font-weight: 500;
+    margin-top: .1rem
+}
+
+.card-subtitle {
+    font-weight: 400
+}
+
+.card-table {
+    margin-bottom: 0
+}
+
+.card-table tr td:first-child,
+.card-table tr th:first-child {
+    padding-left: 1.25rem
+}
+
+.card-table tr td:last-child,
+.card-table tr th:last-child {
+    padding-right: 1.25rem
+}
+
+.card-img-top {
+    height: 100%
+}
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.025);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: .2rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.2rem - 1px) calc(.2rem - 1px) 0 0;
+}
+
+.card-header {
+    border-bottom-width: 1px;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e9f2;
+}
